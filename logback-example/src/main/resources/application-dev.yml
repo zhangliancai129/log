@@ -1,0 +1,12 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: logback-example
+
+logback:
+  dir: E:/spring-boot-example/logs/logback-example
+  level: DEBUG
+  maxFileSize: 50MB
+  maxHistory: 7
